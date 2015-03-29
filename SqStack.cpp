@@ -10,11 +10,11 @@ using namespace std;
 
 typedef int SElemType;
 
-typedef struct
+struct SqStack
 {
 	SElemType data[MAXSIZE];
 	int top;
-}SqStack;
+};
 
 //≥ı ºªØtop = -1
 void InitStack(SqStack * S)
